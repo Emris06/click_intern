@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Marketplace</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1 class="title">Mini Marketplace</h1>
+        <nav class="nav">
+          <button class="nav-button active" id="productsBtn">
+            Mahsulotlar
+          </button>
+          <button class="nav-button" id="cartBtn">
+            🛒 Savat
+            <span class="cart-badge hidden" id="cartBadge">0</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Products Page -->
+      <div id="productsPage">
+        <h2 class="page-title">Mahsulotlar</h2>
+        <div class="loading" id="loading">Yuklanmoqda...</div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+
+      <!-- Cart Page -->
+      <div id="cartPage" class="hidden">
+        <h2 class="page-title">Savat</h2>
+        <div id="cartContent"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
