@@ -30,6 +30,6 @@ Taxminiy vaqt: 2-3 soat
    Yechim: CSS -webkit-line-clamp bilan 2 qatordan keyin text truncate qilish va "..." qo'shish
 
 Skrinshotlar:
-![1](/click_intern/media/image-1.png)
-![2](/click_intern/media/image-2.png)
-![3](/click_intern/media/image-3.png)
+![1](image.png)
+![2](image-1.png)
+![3](image-2.png)
