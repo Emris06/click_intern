@@ -33,3 +33,5 @@ Skrinshotlar:
 ![1](image.png)
 ![2](image-1.png)
 ![3](image-2.png)
+
+Demo link: https://emris06.github.io/click_intern/
